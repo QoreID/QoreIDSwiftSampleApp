@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FDD04D2ACDA9B4004633BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FDD04C2ACDA9B4004633BE /* AppDelegate.swift */; };
+		09FDD04F2ACDA9B4004633BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FDD04E2ACDA9B4004633BE /* SceneDelegate.swift */; };
+		09FDD0512ACDA9B4004633BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FDD0502ACDA9B4004633BE /* ViewController.swift */; };
+		09FDD0542ACDA9B4004633BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDD0522ACDA9B4004633BE /* Main.storyboard */; };
+		09FDD0562ACDA9B5004633BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FDD0552ACDA9B5004633BE /* Assets.xcassets */; };
+		09FDD0592ACDA9B5004633BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDD0572ACDA9B5004633BE /* LaunchScreen.storyboard */; };
+		09FDD0632ACDAC02004633BE /* TestQoreIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FDD0622ACDAC02004633BE /* TestQoreIDViewController.swift */; };
+		BF92808E22096B1E07D1C5B8 /* Pods_QoreIDSwiftSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576C61AD6ADBE82E5A8EEEBE /* Pods_QoreIDSwiftSampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09FDD0492ACDA9B4004633BE /* QoreIDSwiftSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QoreIDSwiftSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FDD04C2ACDA9B4004633BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09FDD04E2ACDA9B4004633BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09FDD0502ACDA9B4004633BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09FDD0532ACDA9B4004633BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09FDD0552ACDA9B5004633BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09FDD0582ACDA9B5004633BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09FDD05A2ACDA9B5004633BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FDD0622ACDAC02004633BE /* TestQoreIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestQoreIDViewController.swift; sourceTree = "<group>"; };
+		11F104C0B8C4B248057929D0 /* Pods-QoreIDSwiftSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QoreIDSwiftSampleApp.release.xcconfig"; path = "Target Support Files/Pods-QoreIDSwiftSampleApp/Pods-QoreIDSwiftSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		576C61AD6ADBE82E5A8EEEBE /* Pods_QoreIDSwiftSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QoreIDSwiftSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDF71B8D2FC4F2FB948B9F0 /* Pods-QoreIDSwiftSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QoreIDSwiftSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-QoreIDSwiftSampleApp/Pods-QoreIDSwiftSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FDD0462ACDA9B4004633BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF92808E22096B1E07D1C5B8 /* Pods_QoreIDSwiftSampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FDD0402ACDA9B4004633BE = {
+			isa = PBXGroup;
+			children = (
+				09FDD04B2ACDA9B4004633BE /* QoreIDSwiftSampleApp */,
+				09FDD04A2ACDA9B4004633BE /* Products */,
+				EF1094386002F755DFCAB490 /* Pods */,
+				2361FBC64F08D1C5A2A48412 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09FDD04A2ACDA9B4004633BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FDD0492ACDA9B4004633BE /* QoreIDSwiftSampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FDD04B2ACDA9B4004633BE /* QoreIDSwiftSampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				09FDD04C2ACDA9B4004633BE /* AppDelegate.swift */,
+				09FDD04E2ACDA9B4004633BE /* SceneDelegate.swift */,
+				09FDD0622ACDAC02004633BE /* TestQoreIDViewController.swift */,
+				09FDD0502ACDA9B4004633BE /* ViewController.swift */,
+				09FDD0522ACDA9B4004633BE /* Main.storyboard */,
+				09FDD0552ACDA9B5004633BE /* Assets.xcassets */,
+				09FDD0572ACDA9B5004633BE /* LaunchScreen.storyboard */,
+				09FDD05A2ACDA9B5004633BE /* Info.plist */,
+			);
+			path = QoreIDSwiftSampleApp;
+			sourceTree = "<group>";
+		};
+		2361FBC64F08D1C5A2A48412 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				576C61AD6ADBE82E5A8EEEBE /* Pods_QoreIDSwiftSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1094386002F755DFCAB490 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF71B8D2FC4F2FB948B9F0 /* Pods-QoreIDSwiftSampleApp.debug.xcconfig */,
+				11F104C0B8C4B248057929D0 /* Pods-QoreIDSwiftSampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FDD0482ACDA9B4004633BE /* QoreIDSwiftSampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FDD05D2ACDA9B5004633BE /* Build configuration list for PBXNativeTarget "QoreIDSwiftSampleApp" */;
+			buildPhases = (
+				1DC649BAADE2C224D72EBFC2 /* [CP] Check Pods Manifest.lock */,
+				09FDD0452ACDA9B4004633BE /* Sources */,
+				09FDD0462ACDA9B4004633BE /* Frameworks */,
+				09FDD0472ACDA9B4004633BE /* Resources */,
+				A953D4EC7CDE1A5AB2C53634 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QoreIDSwiftSampleApp;
+			productName = QoreIDSwiftSampleApp;
+			productReference = 09FDD0492ACDA9B4004633BE /* QoreIDSwiftSampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FDD0412ACDA9B4004633BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					09FDD0482ACDA9B4004633BE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 09FDD0442ACDA9B4004633BE /* Build configuration list for PBXProject "QoreIDSwiftSampleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09FDD0402ACDA9B4004633BE;
+			productRefGroup = 09FDD04A2ACDA9B4004633BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FDD0482ACDA9B4004633BE /* QoreIDSwiftSampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FDD0472ACDA9B4004633BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FDD0592ACDA9B5004633BE /* LaunchScreen.storyboard in Resources */,
+				09FDD0562ACDA9B5004633BE /* Assets.xcassets in Resources */,
+				09FDD0542ACDA9B4004633BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DC649BAADE2C224D72EBFC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QoreIDSwiftSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A953D4EC7CDE1A5AB2C53634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QoreIDSwiftSampleApp/Pods-QoreIDSwiftSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QoreIDSwiftSampleApp/Pods-QoreIDSwiftSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QoreIDSwiftSampleApp/Pods-QoreIDSwiftSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FDD0452ACDA9B4004633BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FDD0632ACDAC02004633BE /* TestQoreIDViewController.swift in Sources */,
+				09FDD0512ACDA9B4004633BE /* ViewController.swift in Sources */,
+				09FDD04D2ACDA9B4004633BE /* AppDelegate.swift in Sources */,
+				09FDD04F2ACDA9B4004633BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09FDD0522ACDA9B4004633BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FDD0532ACDA9B4004633BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09FDD0572ACDA9B5004633BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FDD0582ACDA9B5004633BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FDD05B2ACDA9B5004633BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09FDD05C2ACDA9B5004633BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09FDD05E2ACDA9B5004633BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDF71B8D2FC4F2FB948B9F0 /* Pods-QoreIDSwiftSampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5QWS6B7WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QoreIDSwiftSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verifyme.QoreIDSwiftSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09FDD05F2ACDA9B5004633BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F104C0B8C4B248057929D0 /* Pods-QoreIDSwiftSampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D5QWS6B7WQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QoreIDSwiftSampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.verifyme.QoreIDSwiftSampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FDD0442ACDA9B4004633BE /* Build configuration list for PBXProject "QoreIDSwiftSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FDD05B2ACDA9B5004633BE /* Debug */,
+				09FDD05C2ACDA9B5004633BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FDD05D2ACDA9B5004633BE /* Build configuration list for PBXNativeTarget "QoreIDSwiftSampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FDD05E2ACDA9B5004633BE /* Debug */,
+				09FDD05F2ACDA9B5004633BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FDD0412ACDA9B4004633BE /* Project object */;
+}

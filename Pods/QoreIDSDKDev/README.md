@@ -1,0 +1,2 @@
+# QoreIDSDKiOS
+# QoreIDSDKiOSDev

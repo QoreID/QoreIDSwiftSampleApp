@@ -1,0 +1,20 @@
+PODS:
+  - QoreIDSDKDependencies (1.0.0)
+  - QoreIDSDKDev (1.0.0):
+    - QoreIDSDKDependencies
+
+DEPENDENCIES:
+  - QoreIDSDKDev
+
+SPEC REPOS:
+  trunk:
+    - QoreIDSDKDependencies
+    - QoreIDSDKDev
+
+SPEC CHECKSUMS:
+  QoreIDSDKDependencies: 26fe1eec32f9b77832292b333eda5850988568b5
+  QoreIDSDKDev: ad027a939ed8a73e6dddee55f9a9dc63ad92048d
+
+PODFILE CHECKSUM: 41d8c80f6e8e13932693079d45e718be45f73a7f
+
+COCOAPODS: 1.11.3
