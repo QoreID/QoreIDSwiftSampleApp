@@ -1,6 +1,0 @@
-framework module Pods_QoreIDSwiftSampleApp {
-  umbrella header "Pods-QoreIDSwiftSampleApp-umbrella.h"
-
-  export *
-  module * { export * }
-}

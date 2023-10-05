@@ -5,6 +5,8 @@
 //  Created by Guru King on 04/10/2023.
 //
 
+//Note: This view controller is embedded in a navigation controller via the Main.storyboard
+
 import UIKit
 import QoreIDSDK
 
