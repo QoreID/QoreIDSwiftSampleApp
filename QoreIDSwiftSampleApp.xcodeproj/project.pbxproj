@@ -13,7 +13,6 @@
 		09FDD0542ACDA9B4004633BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDD0522ACDA9B4004633BE /* Main.storyboard */; };
 		09FDD0562ACDA9B5004633BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FDD0552ACDA9B5004633BE /* Assets.xcassets */; };
 		09FDD0592ACDA9B5004633BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FDD0572ACDA9B5004633BE /* LaunchScreen.storyboard */; };
-		09FDD0632ACDAC02004633BE /* TestQoreIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FDD0622ACDAC02004633BE /* TestQoreIDViewController.swift */; };
 		BF92808E22096B1E07D1C5B8 /* Pods_QoreIDSwiftSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576C61AD6ADBE82E5A8EEEBE /* Pods_QoreIDSwiftSampleApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +25,6 @@
 		09FDD0552ACDA9B5004633BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09FDD0582ACDA9B5004633BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09FDD05A2ACDA9B5004633BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09FDD0622ACDAC02004633BE /* TestQoreIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestQoreIDViewController.swift; sourceTree = "<group>"; };
 		11F104C0B8C4B248057929D0 /* Pods-QoreIDSwiftSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QoreIDSwiftSampleApp.release.xcconfig"; path = "Target Support Files/Pods-QoreIDSwiftSampleApp/Pods-QoreIDSwiftSampleApp.release.xcconfig"; sourceTree = "<group>"; };
 		576C61AD6ADBE82E5A8EEEBE /* Pods_QoreIDSwiftSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QoreIDSwiftSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDF71B8D2FC4F2FB948B9F0 /* Pods-QoreIDSwiftSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QoreIDSwiftSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-QoreIDSwiftSampleApp/Pods-QoreIDSwiftSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 			children = (
 				09FDD04C2ACDA9B4004633BE /* AppDelegate.swift */,
 				09FDD04E2ACDA9B4004633BE /* SceneDelegate.swift */,
-				09FDD0622ACDAC02004633BE /* TestQoreIDViewController.swift */,
 				09FDD0502ACDA9B4004633BE /* ViewController.swift */,
 				09FDD0522ACDA9B4004633BE /* Main.storyboard */,
 				09FDD0552ACDA9B5004633BE /* Assets.xcassets */,
@@ -209,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09FDD0632ACDAC02004633BE /* TestQoreIDViewController.swift in Sources */,
 				09FDD0512ACDA9B4004633BE /* ViewController.swift in Sources */,
 				09FDD04D2ACDA9B4004633BE /* AppDelegate.swift in Sources */,
 				09FDD04F2ACDA9B4004633BE /* SceneDelegate.swift in Sources */,
